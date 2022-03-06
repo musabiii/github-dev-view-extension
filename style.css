@@ -1,4 +1,4 @@
-.vscode-btn {
+.dev-btn {
   border-radius: 15%;
   border: 1px solid rgba(27, 31, 36, 0.15);
   height: 32px;
@@ -7,7 +7,7 @@
   background-color: #f6f8fa;
 }
 
-.vscode-img {
+.dev-img {
     /* width: 20px; */
     height: 100%;
 }

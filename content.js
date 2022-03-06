@@ -9,7 +9,7 @@ let vscode = before+'vscode.dev/'+after;
 //add button to ui
 const flex = document.querySelector('.file-navigation');
 const vsCode = document.createElement('a');
-vsCode.classList.add('vscode-btn');
+vsCode.classList.add('dev-btn');
 vsCode.href = vscode;
 vsCode.target = '_blank';
 flex.insertAdjacentElement('beforeend',vsCode);
@@ -21,7 +21,7 @@ let imgURL = chrome.runtime.getURL("img/vscode.svg");
 
 let vsImg = document.createElement('img');
 vsImg.src = imgURL;
-vsImg.classList.add('vscode-img');
+vsImg.classList.add('dev-img');
 vsCode.append(vsImg);
 
 
@@ -35,7 +35,7 @@ let sandboxLink = before2+'box'+after2; //url
 
 //add button to ui
 const sandbox = document.createElement('a');
-sandbox.classList.add('vscode-btn');
+sandbox.classList.add('dev-btn');
 sandbox.href = sandboxLink;
 sandbox.target = '_blank';
 flex.insertAdjacentElement('beforeend',sandbox);
@@ -46,7 +46,7 @@ let imgURL2 = chrome.runtime.getURL("img/codesandbox.svg");
 
 let sbImg = document.createElement('img');
 sbImg.src = imgURL2;
-sbImg.classList.add('vscode-img');
+sbImg.classList.add('dev-img');
 sandbox.append(sbImg);
 
 
